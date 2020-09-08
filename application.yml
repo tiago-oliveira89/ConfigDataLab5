@@ -1,0 +1,28 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka
+---
+spring:
+  profiles: subject
+words: Eu,Você,Ele,Ela,Aquilo,Aquela
+
+---
+spring:
+  profiles: verb
+words: correu,sabia,teve,viu,comprou
+
+---
+spring:
+  profiles: article
+words: o,a
+
+---
+spring:
+  profiles: adjective
+words: razoável,vazando,suspeito,normal,diferente
+
+---
+spring:
+  profiles: noun
+words: barco,livro,voto,assento,mochila,pedaço,cachorro       
