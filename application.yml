@@ -27,4 +27,9 @@ words: razoável,vazando,suspeito,normal,diferente
 ---
 spring:
   profiles: noun
-words: barco,livro,voto,assento,mochila,pedaço,cachorro       
+words: barco,livro,voto,assento,mochila,pedaço,cachorro
+
+---
+spring:
+  profiles: cold-noun
+words: neve,geladeira,frizer,bola de neve
